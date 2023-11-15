@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--e button code-->
+    <title>Project Enviromental Chemistry CHE110</title>
+</head>
+
+<body>
+    <!--Header-->
+    <section class="sub-contact-form">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="member.html">Members</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        
+    </section>
+    <!-- contact us-->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7263993671204!2d75.70256857477344!3d31.255996560157584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1698561060681!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-form">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span> 
+                    <h5>India's Best Private University* Lovely Professional University</h5>
+                    <p>Jalandhar-Delhi, G.T. Road, Phagwara, Punjab (INDIA) -144411.</p>
+                    <a href="https://www.lpu.in">Website: https://www.lpu.in</a>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91-1824-404404</h5>
+                    <p>9 AM to 6 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>
+                    <h5>+91 9852569000</h5>
+                    <p>Whatsapp</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email adress" required>
+                <input type="text" name="phone number" placeholder="Enter Your Phone Number" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-three">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!--Fotter-->
+    <section class="fotter">
+        <h4>About Us</h4>
+        <p>This Website is made by the students of Lovely Professional University as a Project of Enviromental
+            Chemistry (CHE110)
+            <br>Thank You <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+        </p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-telegram"></i>
+        </div>
+        <p></p>
+    </section>
+
+    <!--Java Script function for Toogle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

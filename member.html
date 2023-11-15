@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="member-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--e button code-->
+    <title>Project Enviromental Chemistry CHE110</title>
+</head>
+
+<body>
+    <!--Header-->
+    <section class="sub-member-cover">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="member.html">Members</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Members</h1>
+        <p>Forecasting The Skies: The Art and Science of Weather Prediction</p>
+    </section>
+    <!-- About us comment -->
+    <section class="member-rock">
+        <div class="row">
+            <div class="member-col">
+                <h3>Suprit Das</h3>
+                <p>Regestration number- 12320777 <br>Roll number- 43 <br>Section- K23FA(B)
+                </p>
+                
+            </div>
+            <div class="member-col">
+                <h3>Alok Singh</h3>
+                <p>Regestration number- 12321124 <br>Roll number- 44 <br>Section- K23FA(B)
+                </p>
+                
+            </div>
+            <div class="member-col">
+                <h3>Keshav Raj</h3>
+                <p>Regestration number- 12321180 <br>Roll number- 45 <br>Section- K23FA(B) 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Fotter-->
+    <section class="fotter">
+        <h4>About Us</h4>
+        <p>This Website is made by the students of Lovely Professional University as a Project of Enviromental
+            Chemistry (CHE110)
+            <br>Thank You <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+        </p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-telegram"></i>
+        </div>
+        <p></p>
+    </section>
+
+    <!--Java Script function for Toogle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
